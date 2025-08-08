@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RSSB</title>
+    <link rel="icon" href="/images/image.png" type="image/x-icon" />
+
     <link rel="stylesheet" href="src/output.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=assignment,group,home,moving,remove,scan_delete,show_chart" />
-
-<!-- Load Ionicons from CDN -->
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </head>
 <body class="max-w-[1690px]">
-<div class="bg-blue-50 flex justify-between items-center px-15">
+<div class="bg-blue-50 flex justify-between flex-col md:flex-row items-center md:px-15">
     <div class="flex flex-row  gap-4 p-4 ">
         <div class="w-8 flex items-center border-r border-gray-300  "> <img src="./images/download (8).svg" alt="" class="w-4"></div>
         <div class="w-8  flex items-center border-r border-gray-300 "> <img src="./images/download (6).svg" alt=""class="w-4"></div>
@@ -22,7 +22,7 @@
         <div class="w-8 flex items-center"> <img src="./images/download (5).svg" alt=" " class="w-4"></div>
         </div>
 
-        <div class="flex gap-8"><p>Online services</p>
+        <div class="flex justify-between gap-8"><p>Online services</p>
         <p>Publications</p></div>
         </div>
 
@@ -290,42 +290,92 @@ to ensure the compliance and fraud monitoring. Our members will have a seamless 
  </div></div>
 
 <!--News and events-->
-<section >
+<section  class="py-10 flex flex-col justify-center  mx-auto space-y-4">
   <h1 class="font-bold text-center text-xl m-4 flex justify-center items-center"> <span class=" w-9 text-amber-500 material-symbols-outlined">remove</span>News & Events</h1>
   <div class="px-4 mx-auto  md:max-w-5/6 flex flex-col md:flex-row justify-center">
      <div class="md:w-2/6 px-4 mx-auto ">
-<div class="w-full h-[240px] grow-0"> <img src="images/imgi_26_image (1).webp" alt="" class="w-full h-full"></div>
-<div>
+<div class="w-full h-[240px] "> <img src="images/imgi_26_image (1).webp" alt="" class="w-full h-full"></div>
+<div class="flex flex-col space-y-4 py-4  ">
 
   <span class="font-light text-md">8 months ago</span>
   <h1 class="font-bold text-blue-950">RSSB Engages the Private Sector on Pension Reforms and...</h1>
   <p>Kigali: Thursday, November 28th, 2024 – The Rwanda Social Security Board (RSSB) engaged with the private sector to discuss upcoming pension reforms, h...</p>
-<span>Read more...</span>
-</div></div>
+</div>
+<div class="w-full py-4 md:border-t border-gray-300 "><span class=" text-blue-950">Read more...</span>
+</div>
 
- <div class="md:w-2/6 px-4 mx-auto ">
+
+</div>
+
+ <div class="md:w-2/6 px-4 mx-auto">
 <div class="w-full h-[240px] grow-0"> <img src="images/imgi_42_image (2).webp" alt="" class="w-full h-full"></div>
-<div>
+<div class="flex flex-col space-y-4 py-4">
 
   <span class="font-light text-md">2 yearsago</span>
   <h1 class="font-bold text-blue-950">RSSB champions youth basketball in EjoHeza Tournament....</h1>
   <p>On 14th January 2014, Rwanda Social Security Board (RSSB) participated in the 3x3 EjoHeza Tournament, collaboratively organized by partner basketball ...</p>
-<span>Read more...</span>
+</div>
+<div class="w-full md:border-t border-gray-300 text-blue-950 py-4 "><span>Read more...</span>
 </div>
   </div>
 
 
- <div class="md:w-2/6 px-4 mx-auto ">
-<div class="w-full h-[240px]"> <img src="images/imgi_28_image (1).webp" alt="" class="w-full h-full"></div>
-<div>
+ <div class="md:w-2/6 px-4 mx-auto  ">
+<div class="w-full"> <img src="images/imgi_28_image (1).webp" alt="" class="w-full h-full"></div>
+<div class="flex flex-col space-y-4 py-4">
 
   <span class="font-light text-md">2 yearsago</span>
   <h1 class="font-bold text-blue-950">RSSB gets data controller certification....</h1>
   <p>The National Cyber Security Authority (NCSA) presented Rwanda Social Security Board (RSSB) with Data Controller certification, following the instit...</p>
-<span>Read more...</span>
+
+</div ><div class="w-full md:border-t text-blue-950 py-4 border-gray-300">  <span>Read more...</span>
 </div>
   </div>
   </div>
+
+
+  <div class="  mx-auto"><button class="px-8 border-2 self-center w-40 m-auto borde-blue-700 hover:bg-blue-900 hover:text-white bg-white text-blue-900 font-bold rounded-md py-4"> View More </button>  
+</div>
 </section>
+
+<footer class=" py-10  mx-auto flex flex-col gap-4 justify-between">
+<div class=" md:border-b border-gray-400 md:max-w-5/6 w-full py-10 mx-auto flex flex-col gap-4 md:flex-row justify-between">
+<div class="flex flex-col space-y-4">
+<h1 class="font-bold text-blue-950"> GET IN TOUCH</h1>
+<ul class="flex flex-col space-y-2"><li>
+<a href="">KN 3 Rd African Union Boulevard</a></li>
+<li>
+<a href="">Kiyovu, Nyarugenge</a></li>
+<li> <a href="">P.O Box 250/6655 Kigali-Rwanda</a></li>
+<li><a href="">Tel: 4044 Toll free line</a></li>
+<li>   <a href="">  5006 EjoHeza</a></li></ul>
+</div>
+
+<div class="flex flex-col space-y-4">
+<h1 class="font-bold text-blue-950"> IMPORTANT LINKS</h1>
+<ul class="flex flex-col space-y-2"><li>
+<a href="">Tenders</a></li>
+<li>
+<a href="">Callery</a></li>
+<li> <a href="">Anouncements</a></li>
+<li><a href="">Privacy Policy</a></li>
+</ul></div>
+ 
+<div class="flex flex-col space-y-4">
+<h1 class="font-bold text-blue-950"> SERVICES </h1>
+<ul class="flex flex-col space-y-2"><li>
+<a href="">Apply For Employee Number</a></li>
+<li>
+<a href="">Check for Your Contributions</a></li>
+<li> <a href="">Pay Employee Contributions</a></li>
+<li><a href=""Pension Simulator></a></li>
+<li><a href=""> RSSB Clearance Certificate</a></li></ul>
+</div>
+</div>
+<div class="md:max-w-5/6 flex ">
+  <p class="md:max-w-5/6 flex justify-start mx-auto">© 2025 Rwanda Social Security Board
+</p>
+</div>
+</footer>
 </body> 
 </html>
